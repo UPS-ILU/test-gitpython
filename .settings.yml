@@ -1,3 +1,10 @@
 folder_path: .
 repo_path: .
 ssh_path: C:\Users\mario\.ssh\id_ed25519
+questions:
+- '#1'
+- '#2'
+- '#3'
+- '#4'
+- '#5'
+- '#6'
