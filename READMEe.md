@@ -3,7 +3,7 @@
 
 ### NOM : PONS
 ### Prénom : Mika
-### Groupe de TP : TP2
+### Groupe de TP : TP1
 - [ ] 11
 - [x] 12
 - [ ] 21
