@@ -15,7 +15,7 @@ jobs:
   create_release:
     runs-on: ubuntu-latest
     steps:
-      - name: release
+      - name: Create release
         uses: actions/create-release@v1
         id: create_release
         with:
@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          upload_url: ${{ needs.steps.create_release.outputs.upload_url }}
+          upload_url: ${{ needs.create_release.steps.create_release.outputs.upload_url }}
           asset_path: ./src/README.md
           asset_name: README.md
           asset_content_type: text/markdown
