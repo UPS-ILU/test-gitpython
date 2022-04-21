@@ -1,9 +1,5 @@
 completed_questions:
 - '#3'
-- '#2'
-- '#6'
-- '#5'
-- '#4'
 folder_path: .
 groups:
 - '3.1'
@@ -18,4 +14,4 @@ questions:
 - '#5'
 - '#6'
 repo_path: .
-ssh_path: C:\Users\mario\.ssh\id_ed25519
+ssh_path: /home/mikapons/.ssh/id_rsa
