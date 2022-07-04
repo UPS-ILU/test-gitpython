@@ -5,7 +5,7 @@ groups:
 - '3.1'
 - '1.2'
 - A
-no_watcher: true
+no_watcher: false
 questions:
 - '#1'
 - '#2'
