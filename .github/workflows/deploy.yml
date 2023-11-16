@@ -1,3 +1,7 @@
+name: deploy to pages
+
+on:
+  push
 jobs:
   # Build job
   build:
